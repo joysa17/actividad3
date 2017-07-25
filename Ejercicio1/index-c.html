@@ -14,12 +14,22 @@ float: left;
 
 }
 
-#navbar{
+ul.navbar{
   width: 100%;
-  top: 0;
+  list-style-type: none;
+  background-color: white;
+  height: 100px;
   position: fixed;
-  background-color: grey;
- float: left;
+  top: 0px;
+  margin-top: 0px;
+  
+   
+}
+
+ul.navbar li{
+	float: left;
+	padding: 25px;
+
 }
 
 
@@ -29,13 +39,12 @@ float: left;
 </head>
 <body>
 <div>
-<nav id="navbar">
- <ul>
+ <ul class="navbar">
     <li>One</li>
     <li>Two</li>
     <li>Three</li>
   </ul>
-</nav>
+
 </div>
 <div>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
